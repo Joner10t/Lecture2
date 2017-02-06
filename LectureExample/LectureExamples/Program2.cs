@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lecture
+namespace Lecture2
 {
     class Program2
     {
@@ -43,6 +43,7 @@ namespace Lecture
             Console.WriteLine("{0:00}", x); //123
             Console.WriteLine("{0:###00}", x); //123
 
+            Console.ReadKey();
         }
     }
 }
